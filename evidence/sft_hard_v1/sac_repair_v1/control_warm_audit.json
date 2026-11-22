@@ -1,0 +1,15 @@
+{
+  "actor_changed": true,
+  "critic_changed": true,
+  "counts": {
+    "critic": [
+      512
+    ],
+    "actor": [
+      512
+    ],
+    "temperature": [
+      512
+    ]
+  }
+}

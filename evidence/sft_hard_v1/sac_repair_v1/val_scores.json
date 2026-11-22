@@ -1,0 +1,200 @@
+[
+  {
+    "label": "control_2048",
+    "rank": [
+      4,
+      14
+    ],
+    "counts": {
+      "critic": [
+        2048
+      ],
+      "actor": [
+        2048
+      ],
+      "temperature": [
+        2048
+      ]
+    }
+  },
+  {
+    "label": "control_4096",
+    "rank": [
+      3,
+      13
+    ],
+    "counts": {
+      "critic": [
+        4096
+      ],
+      "actor": [
+        4096
+      ],
+      "temperature": [
+        4096
+      ]
+    }
+  },
+  {
+    "label": "warm_2048",
+    "rank": [
+      3,
+      13
+    ],
+    "counts": {
+      "critic": [
+        2048
+      ],
+      "actor": [
+        1536
+      ],
+      "temperature": [
+        1536
+      ]
+    }
+  },
+  {
+    "label": "warm_4096",
+    "rank": [
+      3,
+      13
+    ],
+    "counts": {
+      "critic": [
+        4096
+      ],
+      "actor": [
+        3584
+      ],
+      "temperature": [
+        3584
+      ]
+    }
+  },
+  {
+    "label": "warm_delay_2048",
+    "rank": [
+      3,
+      12
+    ],
+    "counts": {
+      "critic": [
+        2048
+      ],
+      "actor": [
+        768
+      ],
+      "temperature": [
+        768
+      ]
+    }
+  },
+  {
+    "label": "warm_delay_4096",
+    "rank": [
+      3,
+      12
+    ],
+    "counts": {
+      "critic": [
+        4096
+      ],
+      "actor": [
+        1792
+      ],
+      "temperature": [
+        1792
+      ]
+    }
+  },
+  {
+    "label": "warm_delay_low_2048",
+    "rank": [
+      2,
+      12
+    ],
+    "counts": {
+      "critic": [
+        2048
+      ],
+      "actor": [
+        768
+      ],
+      "temperature": [
+        768
+      ]
+    }
+  },
+  {
+    "label": "warm_delay_low_4096",
+    "rank": [
+      5,
+      13
+    ],
+    "counts": {
+      "critic": [
+        4096
+      ],
+      "actor": [
+        1792
+      ],
+      "temperature": [
+        1792
+      ]
+    }
+  },
+  {
+    "label": "online_40",
+    "rank": [
+      0,
+      10
+    ],
+    "counts": {
+      "critic": [
+        8061
+      ],
+      "actor": [
+        3774
+      ],
+      "temperature": [
+        3774
+      ]
+    }
+  },
+  {
+    "label": "online_80",
+    "rank": [
+      4,
+      14
+    ],
+    "counts": {
+      "critic": [
+        11785
+      ],
+      "actor": [
+        5636
+      ],
+      "temperature": [
+        5636
+      ]
+    }
+  },
+  {
+    "label": "online_120",
+    "rank": [
+      8,
+      17
+    ],
+    "counts": {
+      "critic": [
+        13899
+      ],
+      "actor": [
+        6693
+      ],
+      "temperature": [
+        6693
+      ]
+    }
+  }
+]

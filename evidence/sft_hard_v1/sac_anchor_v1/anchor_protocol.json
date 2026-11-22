@@ -1,0 +1,35 @@
+{
+  "offline_source": "original SAC training replay only",
+  "source_episodes": 120,
+  "successful_episodes": 42,
+  "success_transition_count": 2325,
+  "mc_discount": 0.99,
+  "pretrain_steps": 1024,
+  "sac_updates_offline": 4096,
+  "bc_weight": 0.5,
+  "initial_alpha": 0.01,
+  "online_epochs": 120,
+  "select": "successes then final flags then earliest; validation 30..34 x offsets 30000/33000",
+  "test_trials": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "test_offsets": [
+    41000,
+    51000
+  ],
+  "teachers": false
+}

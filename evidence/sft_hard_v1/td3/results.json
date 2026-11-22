@@ -1,0 +1,14 @@
+{
+  "n": 30,
+  "layouts": 15,
+  "base": 10,
+  "td3": 27,
+  "wins": 17,
+  "losses": 0,
+  "diff_pp": 56.666666666666664,
+  "layout_bootstrap95_pp": [
+    40.0,
+    73.33333333333333
+  ],
+  "selected": 40
+}

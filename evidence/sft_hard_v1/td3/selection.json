@@ -1,0 +1,7 @@
+{
+  "checkpoint": 40,
+  "validation_successes": 4,
+  "updates": 10670,
+  "actor_updates": 5335,
+  "replay": 10925
+}

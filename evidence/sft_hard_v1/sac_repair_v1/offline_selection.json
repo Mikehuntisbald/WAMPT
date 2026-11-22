@@ -1,0 +1,9 @@
+{
+  "file": "warm_delay_low_4096.zip",
+  "rank": [
+    5,
+    13
+  ],
+  "warm": 512,
+  "delay": 2
+}

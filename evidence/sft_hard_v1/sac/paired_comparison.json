@@ -1,0 +1,256 @@
+{
+  "success": {
+    "sac_base": 10,
+    "td3": 27,
+    "sac": 13
+  },
+  "sac_vs_sft": {
+    "wins": 4,
+    "losses": 1,
+    "delta_pp": 10.0,
+    "ci95_pp": [
+      -3.3333333333333335,
+      23.333333333333332
+    ]
+  },
+  "sac_vs_td3": {
+    "wins": 0,
+    "losses": 14,
+    "delta_pp": -46.666666666666664,
+    "ci95_pp": [
+      -70.0,
+      -26.666666666666668
+    ]
+  },
+  "cheese_only": {
+    "sac_base": 11,
+    "td3": 2,
+    "sac": 10
+  },
+  "validation": [
+    2,
+    1,
+    0
+  ],
+  "selection": {
+    "checkpoint": 40,
+    "validation_successes": 2,
+    "updates": 10104,
+    "actor_updates": 10104,
+    "replay": 10359
+  },
+  "env_steps": 51460,
+  "last_temperature": 0.005205140449106693,
+  "paired_cases": [
+    {
+      "layout": 35,
+      "seed": 41035,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 35,
+      "seed": 51035,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 36,
+      "seed": 41036,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 36,
+      "seed": 51036,
+      "sac_base": false,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 37,
+      "seed": 41037,
+      "sac_base": false,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 37,
+      "seed": 51037,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 38,
+      "seed": 41038,
+      "sac_base": true,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 38,
+      "seed": 51038,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 39,
+      "seed": 41039,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 39,
+      "seed": 51039,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 40,
+      "seed": 41040,
+      "sac_base": false,
+      "td3": false,
+      "sac": false
+    },
+    {
+      "layout": 40,
+      "seed": 51040,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 41,
+      "seed": 41041,
+      "sac_base": false,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 41,
+      "seed": 51041,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 42,
+      "seed": 41042,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 42,
+      "seed": 51042,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 43,
+      "seed": 41043,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 43,
+      "seed": 51043,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 44,
+      "seed": 41044,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 44,
+      "seed": 51044,
+      "sac_base": false,
+      "td3": false,
+      "sac": false
+    },
+    {
+      "layout": 45,
+      "seed": 41045,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 45,
+      "seed": 51045,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 46,
+      "seed": 41046,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 46,
+      "seed": 51046,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 47,
+      "seed": 41047,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 47,
+      "seed": 51047,
+      "sac_base": true,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 48,
+      "seed": 41048,
+      "sac_base": false,
+      "td3": false,
+      "sac": false
+    },
+    {
+      "layout": 48,
+      "seed": 51048,
+      "sac_base": false,
+      "td3": true,
+      "sac": true
+    },
+    {
+      "layout": 49,
+      "seed": 41049,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    },
+    {
+      "layout": 49,
+      "seed": 51049,
+      "sac_base": false,
+      "td3": true,
+      "sac": false
+    }
+  ]
+}

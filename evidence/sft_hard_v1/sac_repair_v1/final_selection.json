@@ -1,0 +1,20 @@
+{
+  "file": "online_120.zip",
+  "validation_rank": [
+    8,
+    17
+  ],
+  "counts_last": {
+    "critic": [
+      13899
+    ],
+    "actor": [
+      6693
+    ],
+    "temperature": [
+      6693
+    ]
+  },
+  "online_updates": 9803,
+  "replay_final": 20162
+}

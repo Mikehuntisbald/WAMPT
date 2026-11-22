@@ -1,0 +1,77 @@
+{
+  "source_sha": "4a65984a2d0ec6b4ad3ff1da56e10ad6a682bb0a8881cfe45e17f760c3739537",
+  "source_chunks": 10359,
+  "source_episodes": 120,
+  "arms": [
+    [
+      "control",
+      0,
+      1,
+      0.1
+    ],
+    [
+      "warm",
+      512,
+      1,
+      0.1
+    ],
+    [
+      "warm_delay",
+      512,
+      2,
+      0.1
+    ],
+    [
+      "warm_delay_low",
+      512,
+      2,
+      0.01
+    ]
+  ],
+  "common_offline_updates": 4096,
+  "offline_validation_at": [
+    2048,
+    4096
+  ],
+  "val_offsets": [
+    30000,
+    33000
+  ],
+  "validation_trials": [
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "online_epochs": 120,
+  "online_validation_at": [
+    40,
+    80,
+    120
+  ],
+  "selection": "successes, final predicates, earlier candidate in listed order; retain offline checkpoint on ties",
+  "test_offsets": [
+    41000,
+    51000
+  ],
+  "test_trials": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "point_target": "at least 27/30, not a statistical equivalence test",
+  "teachers": false
+}

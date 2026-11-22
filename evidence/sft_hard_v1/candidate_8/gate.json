@@ -1,0 +1,23 @@
+{
+  "idx": 8,
+  "task": "put both moka pots on the stove",
+  "successes": 0,
+  "eligible": false,
+  "repeated": [],
+  "goals": [
+    [
+      "on",
+      "moka_pot_1",
+      "flat_stove_1_cook_region"
+    ],
+    [
+      "on",
+      "moka_pot_2",
+      "flat_stove_1_cook_region"
+    ],
+    [
+      "turnon",
+      "flat_stove_1"
+    ]
+  ]
+}

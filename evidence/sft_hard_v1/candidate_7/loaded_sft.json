@@ -1,0 +1,12 @@
+{
+  "revision": "2e6892a170c0220de88b2580d13df84e413c13b7",
+  "checked_parameters": [
+    "action_head.model.timestep_encoder.timestep_embedder.linear_1.bias",
+    "backbone.eagle_model.vision_model.vision_model.encoder.layers.12.self_attn.out_proj.bias",
+    "backbone.eagle_model.vision_model.vision_model.post_layernorm.weight",
+    "action_head.action_decoder.layer1.W",
+    "action_head.state_encoder.layer2.b",
+    "action_head.vlln.weight"
+  ],
+  "method": "128 parameter values from each named tensor matched after dtype conversion"
+}

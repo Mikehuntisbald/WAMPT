@@ -1,0 +1,18 @@
+{
+  "idx": 9,
+  "task": "put the yellow and white mug in the microwave and close it",
+  "successes": 7,
+  "eligible": false,
+  "repeated": [],
+  "goals": [
+    [
+      "in",
+      "white_yellow_mug_1",
+      "microwave_1_heating_region"
+    ],
+    [
+      "close",
+      "microwave_1"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "parent_protocol_sha256": "6e72af1f48849bf0c1b0385ae20ea273b3f6f930e46c51eacf2c1bac05e3d4ca",
+  "layouts": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "prefix_steps": [
+    30,
+    120
+  ],
+  "repeats": 3,
+  "arms": [
+    "zero",
+    "sac",
+    "new_sac",
+    "td3"
+  ],
+  "alpha": {
+    "sac": 0.03893357515335083,
+    "new_sac": 0.001591024687513709,
+    "td3": 0.0
+  },
+  "follow": [
+    "sac",
+    "new_sac",
+    "td3"
+  ],
+  "discount": 0.99,
+  "cost": 0.1,
+  "horizon": 512,
+  "td3": "deployed deterministic actor, no training target smoothing",
+  "primary": "min online twin-Q versus mean own-policy soft return; compare same critic and same state/arm pairs with previous shaped SFT MC; paired layout bootstrap, 20000 draws",
+  "sac_entropy": "-alpha*joint squashed residual logpi once per future chunk, from chunk 1, no fixed first action entropy",
+  "control": "duplicate zero first action at repeat 0 for each continuation and state"
+}

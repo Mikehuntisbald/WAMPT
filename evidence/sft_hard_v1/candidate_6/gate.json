@@ -1,0 +1,19 @@
+{
+  "idx": 6,
+  "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+  "successes": 7,
+  "eligible": false,
+  "repeated": [],
+  "goals": [
+    [
+      "on",
+      "porcelain_mug_1",
+      "plate_1"
+    ],
+    [
+      "on",
+      "chocolate_pudding_1",
+      "living_room_table_plate_right_region"
+    ]
+  ]
+}

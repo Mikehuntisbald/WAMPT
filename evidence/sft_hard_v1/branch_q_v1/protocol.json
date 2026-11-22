@@ -1,0 +1,43 @@
+{
+  "layouts": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "prefix_steps": [
+    30,
+    120
+  ],
+  "repeats": 3,
+  "arms": [
+    "zero",
+    "sac",
+    "new_sac",
+    "td3"
+  ],
+  "follow": "frozen SFT + zero residual, receding 5-step chunks",
+  "horizon": 512,
+  "gamma": 0.99,
+  "penalty": 0.1,
+  "prefix": "frozen SFT seed schedule, open-loop prefix replay from official reset",
+  "metrics": "statewise mean MC; pairwise match excluding return ties (abs <= 1e-6), top1 with tie credit, regret, task-only sensitivity; bootstrap by layout",
+  "checkpoints": {
+    "sac": [
+      "sac/sac_40.zip",
+      "70f946ab6233757b277f234721c588e810e0d556d47c0386dfa2193e3e2771c0"
+    ],
+    "new_sac": [
+      "sac_repair_v1/online_120.zip",
+      "642db9dc4704d42bdc08916a850b433435c74066bf1aedab92c6e7929331ee51"
+    ],
+    "td3": [
+      "td3/td3_40.zip",
+      "ef33c47351b3a40692820552c62f6425cb3d881ef2df21ee6fe928bf85378b42"
+    ]
+  }
+}

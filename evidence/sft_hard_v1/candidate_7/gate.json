@@ -1,0 +1,23 @@
+{
+  "idx": 7,
+  "task": "put both the alphabet soup and the cream cheese box in the basket",
+  "successes": 6,
+  "eligible": true,
+  "repeated": [
+    true,
+    false,
+    true
+  ],
+  "goals": [
+    [
+      "in",
+      "alphabet_soup_1",
+      "basket_1_contain_region"
+    ],
+    [
+      "in",
+      "cream_cheese_1",
+      "basket_1_contain_region"
+    ]
+  ]
+}

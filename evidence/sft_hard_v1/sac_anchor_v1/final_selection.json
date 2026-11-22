@@ -1,0 +1,21 @@
+{
+  "label": "online_120",
+  "validation": [
+    8,
+    18
+  ],
+  "updates": 12499,
+  "counts": {
+    "critic": [
+      13523
+    ],
+    "actor": [
+      12499,
+      13523
+    ],
+    "temperature": [
+      12499
+    ]
+  },
+  "replay_final": 18762
+}

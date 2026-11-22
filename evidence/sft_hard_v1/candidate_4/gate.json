@@ -1,0 +1,19 @@
+{
+  "idx": 4,
+  "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+  "successes": 7,
+  "eligible": false,
+  "repeated": [],
+  "goals": [
+    [
+      "on",
+      "porcelain_mug_1",
+      "plate_1"
+    ],
+    [
+      "on",
+      "white_yellow_mug_1",
+      "plate_2"
+    ]
+  ]
+}

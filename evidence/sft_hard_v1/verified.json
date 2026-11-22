@@ -1,0 +1,515 @@
+{
+  "screen": [
+    {
+      "task": "put the yellow and white mug in the microwave and close it",
+      "primary": 7,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "put both moka pots on the stove",
+      "primary": 0,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "primary": 9,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "primary": 7,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "turn on the stove and put the moka pot on it",
+      "primary": 7,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "primary": 7,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "pick up the book and place it in the back compartment of the caddy",
+      "primary": 10,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "put both the cream cheese box and the butter in the basket",
+      "primary": 10,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "put both the alphabet soup and the tomato sauce in the basket",
+      "primary": 2,
+      "confirm": null,
+      "repeated": []
+    },
+    {
+      "task": "put both the alphabet soup and the cream cheese box in the basket",
+      "primary": 6,
+      "confirm": 4,
+      "repeated": [
+        4,
+        8
+      ]
+    }
+  ],
+  "task": "put both the alphabet soup and the cream cheese box in the basket",
+  "split_lock_sha256": "bc6aa89fb6f73a89ca751279a796cc7f3d3900d8f171ad5ab23db6493652c8b2",
+  "audit": {
+    "verified": true,
+    "train_control_steps": 54294,
+    "replay_chunks": 10925,
+    "validation_successes": [
+      4,
+      0,
+      0
+    ],
+    "test": {
+      "n": 30,
+      "layouts": 15,
+      "base": 10,
+      "td3": 27,
+      "wins": 17,
+      "losses": 0,
+      "diff_pp": 56.666666666666664,
+      "layout_bootstrap95_pp": [
+        40.0,
+        73.33333333333333
+      ],
+      "selected": 40
+    }
+  },
+  "pairs": [
+    {
+      "trial": 35,
+      "seed": 41035,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 35,
+      "seed": 51035,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 36,
+      "seed": 41036,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 36,
+      "seed": 51036,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        true,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 37,
+      "seed": 41037,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 37,
+      "seed": 51037,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 38,
+      "seed": 41038,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 38,
+      "seed": 51038,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 39,
+      "seed": 41039,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 39,
+      "seed": 51039,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 40,
+      "seed": 41040,
+      "base": false,
+      "residual": false,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        false,
+        true
+      ]
+    },
+    {
+      "trial": 40,
+      "seed": 51040,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 41,
+      "seed": 41041,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        true,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 41,
+      "seed": 51041,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 42,
+      "seed": 41042,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 42,
+      "seed": 51042,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        true,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 43,
+      "seed": 41043,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 43,
+      "seed": 51043,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 44,
+      "seed": 41044,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 44,
+      "seed": 51044,
+      "base": false,
+      "residual": false,
+      "base_final": [
+        true,
+        false
+      ],
+      "residual_final": [
+        false,
+        false
+      ]
+    },
+    {
+      "trial": 45,
+      "seed": 41045,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 45,
+      "seed": 51045,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        true,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 46,
+      "seed": 41046,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 46,
+      "seed": 51046,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 47,
+      "seed": 41047,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 47,
+      "seed": 51047,
+      "base": true,
+      "residual": true,
+      "base_final": [
+        true,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 48,
+      "seed": 41048,
+      "base": false,
+      "residual": false,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        false,
+        true
+      ]
+    },
+    {
+      "trial": 48,
+      "seed": 51048,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        false
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 49,
+      "seed": 41049,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    },
+    {
+      "trial": 49,
+      "seed": 51049,
+      "base": false,
+      "residual": true,
+      "base_final": [
+        false,
+        true
+      ],
+      "residual_final": [
+        true,
+        true
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+/work/
+/projects/groot_long/model/
+/projects/groot_long/model_sft/
+/projects/groot_long/sft_hard_v1/
+/projects/groot_long/hard_task_v1/
+/projects/groot_long/rollouts/
+/runs/

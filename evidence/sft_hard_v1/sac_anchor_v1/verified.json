@@ -1,0 +1,190 @@
+{
+  "success": {
+    "SFT": 10,
+    "original SAC": 13,
+    "TD3": 27,
+    "SAC+BC": 27,
+    "pure SAC revision": 29
+  },
+  "vs": {
+    "SFT": {
+      "wins": 17,
+      "losses": 0,
+      "delta_pp": 56.666666666666664,
+      "ci": [
+        36.666666666666664,
+        76.66666666666667
+      ]
+    },
+    "original SAC": {
+      "wins": 15,
+      "losses": 1,
+      "delta_pp": 46.666666666666664,
+      "ci": [
+        23.333333333333332,
+        70.0
+      ]
+    },
+    "TD3": {
+      "wins": 2,
+      "losses": 2,
+      "delta_pp": 0.0,
+      "ci": [
+        -13.333333333333334,
+        13.333333333333334
+      ]
+    },
+    "pure SAC revision": {
+      "wins": 0,
+      "losses": 2,
+      "delta_pp": -6.666666666666667,
+      "ci": [
+        -16.666666666666664,
+        0.0
+      ]
+    }
+  },
+  "selected": {
+    "label": "online_120",
+    "validation": [
+      8,
+      18
+    ],
+    "updates": 12499,
+    "counts": {
+      "critic": [
+        13523
+      ],
+      "actor": [
+        12499,
+        13523
+      ],
+      "temperature": [
+        12499
+      ]
+    },
+    "replay_final": 18762
+  },
+  "new_steps": 41713,
+  "validation": [
+    {
+      "label": "bc_only",
+      "rank": [
+        4,
+        14
+      ],
+      "optim": {
+        "critic": [
+          1024
+        ],
+        "actor": [
+          1024
+        ],
+        "temperature": [
+          0
+        ]
+      },
+      "sac_updates": 0
+    },
+    {
+      "label": "offline_2048",
+      "rank": [
+        4,
+        13
+      ],
+      "optim": {
+        "critic": [
+          3072
+        ],
+        "actor": [
+          2048,
+          3072
+        ],
+        "temperature": [
+          2048
+        ]
+      },
+      "sac_updates": 2048
+    },
+    {
+      "label": "offline_4096",
+      "rank": [
+        4,
+        14
+      ],
+      "optim": {
+        "critic": [
+          5120
+        ],
+        "actor": [
+          4096,
+          5120
+        ],
+        "temperature": [
+          4096
+        ]
+      },
+      "sac_updates": 4096
+    },
+    {
+      "label": "online_40",
+      "rank": [
+        3,
+        11
+      ],
+      "optim": {
+        "critic": [
+          8029
+        ],
+        "actor": [
+          7005,
+          8029
+        ],
+        "temperature": [
+          7005
+        ]
+      },
+      "sac_updates": 7005
+    },
+    {
+      "label": "online_80",
+      "rank": [
+        7,
+        14
+      ],
+      "optim": {
+        "critic": [
+          10722
+        ],
+        "actor": [
+          9698,
+          10722
+        ],
+        "temperature": [
+          9698
+        ]
+      },
+      "sac_updates": 9698
+    },
+    {
+      "label": "online_120",
+      "rank": [
+        8,
+        18
+      ],
+      "optim": {
+        "critic": [
+          13523
+        ],
+        "actor": [
+          12499,
+          13523
+        ],
+        "temperature": [
+          12499
+        ]
+      },
+      "sac_updates": 12499
+    }
+  ]
+}
