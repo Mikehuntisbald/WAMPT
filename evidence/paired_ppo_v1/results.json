@@ -1,0 +1,58 @@
+{
+  "n": 60,
+  "success": {
+    "sft": 19,
+    "sac": 55,
+    "ppo": 18,
+    "ppo_final": 38
+  },
+  "paired": {
+    "sac_minus_ppo": {
+      "wins": 37,
+      "losses": 0,
+      "diff_pp": 61.67,
+      "ci95_pp": [
+        50.0,
+        73.33
+      ]
+    },
+    "ppo_minus_sft": {
+      "wins": 8,
+      "losses": 9,
+      "diff_pp": -1.67,
+      "ci95_pp": [
+        -15.0,
+        11.67
+      ]
+    },
+    "sac_minus_sft": {
+      "wins": 36,
+      "losses": 0,
+      "diff_pp": 60.0,
+      "ci95_pp": [
+        48.33,
+        71.67
+      ]
+    },
+    "sac_minus_ppo_final": {
+      "wins": 19,
+      "losses": 2,
+      "diff_pp": 28.33,
+      "ci95_pp": [
+        15.0,
+        41.67
+      ]
+    },
+    "ppo_final_minus_sft": {
+      "wins": 21,
+      "losses": 2,
+      "diff_pp": 31.67,
+      "ci95_pp": [
+        18.33,
+        45.0
+      ]
+    }
+  },
+  "selected": 12,
+  "matched_settled_fingerprints": 60
+}

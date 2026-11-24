@@ -1,0 +1,17 @@
+{
+  "seed": 962423,
+  "initial": "37621fa3b334f374c3dfd4fcf273695a3c8a9c54095af95a40550d54e44a3bba",
+  "settled": [
+    "143f75d5eec1ab56cf3644960141619c48a13143dde6c9b1db4479ba42fba75c",
+    "2de6abc7b69776f454713d46731874ed8890d7ff3e7f03a2d2ef21201d97de18",
+    "1c49e863cb09bf5317a462204035b28ba7057094a81321cee08d6f5336787478",
+    "26d1699d9ca16a45f90094bb01bac03bdcce6c7aef7fd87a4807eb4e7a1b15ab",
+    "fce83cab2094ff1154dbe246fc40f74b19c02884154a24efc57b1bd5dd1f228e"
+  ],
+  "success": false,
+  "goals": [
+    false,
+    true
+  ],
+  "steps": 512
+}

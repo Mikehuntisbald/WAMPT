@@ -1,0 +1,22 @@
+{
+  "sha256": {
+    "paired_ppo.py": "778090a108c4e47efe2f41279a86875661d1dc84050fcb4d6df2477e050a9a8e",
+    "dagger_collect.py": "82c74e127e44249731a8192d8be3504daaa9f92dda575ef311eff2fb3d747823",
+    "iql_eval.py": "e32d40b285a956923fbe9e92672575aeec2a42995c1a19d6a03e77d6963796da",
+    "offpolicy.py": "a722a9c1dd5b53efa1ed75dcb9e7b1ce9106d963c0eb7d4afbda6ed00bceff34",
+    "dagger_grpo_eval.py": "ec85031d2554903a84690eb3758fc94cd6c49923911135b8888bc6d0eb148158",
+    "branch_q.py": "60a89abf232c49b6aa36b6c69f16fb16244295b76e1963953d318d7ee2eb6d67",
+    "iql_v1/initial/manifest.json": "5823a49ab2beb9808a03e004233adf09820ba0b50642c06d041980dc3883f57d",
+    "sft_hard_v1/sac_repair_v1/online_120.zip": "642db9dc4704d42bdc08916a850b433435c74066bf1aedab92c6e7929331ee51"
+  },
+  "commits": {
+    "work/repos/RLinf": "f11ed2277e086e843ffad155d7ab89ae878e77a5",
+    "work/repos/dsrl/stable-baselines3": "10e5d311b5c42fe571ff3eeb72f622ca616a149d"
+  },
+  "unique_initial_states": {
+    "train": 20,
+    "validation": 5,
+    "test": 60,
+    "hash_overlap": 0
+  }
+}

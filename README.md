@@ -11,6 +11,10 @@
 
 15 个布局各用两个推理种子，只有一个训练种子。改进 SAC 相对原 SAC 为 16 胜 0 负，相对 TD3 为 2 胜 0 负。布局在此前实验中用过，改进 SAC 增加了训练交互。将未来策略和熵项对齐后，改进 SAC 的 critic 在 96 个动作对里排对了 46 个。详见[训练结果](evidence/sft_hard_v1/sac_repair_v1/RESULTS.md)、[逐状态续跑结果](evidence/sft_hard_v1/branch_q_own_v1/RESULTS.md)和[示例视频](evidence/sft_hard_v1/sac_repair_v1/test-residual-41035.mp4)。
 
+## 同一交互预算下的 PPO 与 SAC
+
+在相同的 GR00T-SFT-Long 上，两个残差策略都只修正 XYZ，训练交互预算均为 20,162 个动作块。60 个固定测试布局上，原始 SFT 成功 19 次，验证选中的 PPO（第 12 轮）成功 18 次，用满预算的 PPO（第 17 轮）成功 38 次，改进 SAC 成功 55 次。对比两个末轮策略，19 个布局只有 SAC 成功，2 个只有 PPO 成功；差值为 +28.3 个百分点，按布局配对 bootstrap 的 95% 区间为 [+15.0,+41.7]。每种方法只跑了一个训练种子，SAC 做过更多调参。第 12、17 轮在 10 个验证回合上同为 4 次成功，按预定规则选取较早的一轮。[逐项结果](evidence/paired_ppo_v1/results.json) · [复现步骤](projects/groot_long/PAIRED_PPO_REPRO.md)
+
 ## 在 CPU 上复核已记录的结果
 
 从仓库根目录执行。两个报告脚本只需 Python 和 NumPy，读取实际 episode 或分支迹线，重新计算成功数、配对区间和 Q 排序。
